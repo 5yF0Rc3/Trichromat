@@ -1,0 +1,40 @@
+name: Bug report
+description: Something in Trichromat does not work as expected
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Trichromat version
+      description: Shown on the settings page of the app.
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+    validations:
+      required: true
+  - type: input
+    id: photoshop
+    attributes:
+      label: Photoshop version
+      placeholder: "26.x"
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What did you do, what did you expect, what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: connection
+    attributes:
+      label: Connection page
+      description: What does the connection page show (status word and the line under it)? A screenshot is fine.
