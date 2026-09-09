@@ -5,7 +5,7 @@ separate version numbers; a release lists both.
 
 ## Unreleased
 
-## 0.1.0 — first beta (app 0.1.0, bridge 0.1.0)
+## 0.1.0 — first beta, 2026-09-09 (app 0.1.0, bridge 0.1.0)
 
 - Reuleaux mixing field with three corner colors and Kubelka–Munk mixing.
 - OK-space lightness control, grey-point mode, corner pinning.
