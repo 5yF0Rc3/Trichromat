@@ -22,6 +22,18 @@ Beta builds are distributed directly to testers through a private Gumroad
 link, together with a license key. If you are a tester and lost the link,
 ask the address you received it from.
 
+The download is one zip per platform, each holding the installer, the
+Photoshop plugin and a short `INSTALL.txt`:
+
+| File | For |
+| --- | --- |
+| `Trichromat-<version>-windows.zip` | Windows 10 / 11 |
+| `Trichromat-<version>-macos-apple-silicon.zip` | Macs with M1 or later |
+| `Trichromat-<version>-macos-intel.zip` | Intel Macs |
+
+Extract the zip to a folder first; the plugin installer needs a real file
+on disk, not one inside a zip preview.
+
 Requirements: Photoshop 26.2 or newer with the Creative Cloud desktop app,
 Windows 10/11 or macOS 12 or newer.
 
