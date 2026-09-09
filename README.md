@@ -5,62 +5,40 @@ with Kubelka–Munk pigment mixing over a Reuleaux-triangle field, with
 OK-space lightness control. Click a color in the field and it becomes the
 Photoshop foreground.
 
-Trichromat is two parts that talk over a local connection on your own
-computer:
-
+Trichromat has two parts:
 - the **Trichromat app**, a small always-on-top window that floats next to
   the Photoshop canvas, and
-- the **Trichromat Bridge** plugin inside Photoshop, a thin panel that relays
-  the picked color.
+- the **Trichromat Bridge** plugin inside Photoshop that connects to the app.
 
-This repository holds the documentation, tutorials and the issue tracker.
-The source code is not public.
+The app **can be used without Photoshop!** in **Solo**-mode, you can copy the selected Color as HEX to the clipboard.
 
-## Download
+## Download and Requirement
+**Photoshop 26.2.0** or **newer** versions required with the Creative Cloud desktop app. Windows 10/11 or macOS 12 or newer.
 
-Beta builds are distributed directly to testers through a private Gumroad
-link, together with a license key. If you are a tester and lost the link,
-ask the address you received it from.
+[Get it on Gumroad](https://745191790950.gumroad.com/l/trichromat)
 
-The download is one zip per platform, each holding the installer, the
-Photoshop plugin and a short `INSTALL.txt`:
-
-| File | For |
-| --- | --- |
-| `Trichromat-<version>-windows.zip` | Windows 10 / 11 |
-| `Trichromat-<version>-macos-apple-silicon.zip` | Macs with M1 or later |
-| `Trichromat-<version>-macos-intel.zip` | Intel Macs |
-
-Extract the zip to a folder first; the plugin installer needs a real file
-on disk, not one inside a zip preview.
-
-Requirements: Photoshop 26.2 or newer with the Creative Cloud desktop app,
-Windows 10/11 or macOS 12 or newer.
 
 ## Install
 
 ### 1. The app
+Extract the zip to a folder.
 
-**Windows.** Run `Trichromat-Setup-<version>.exe`. The beta is not yet
-code-signed, so Windows SmartScreen shows "Windows protected your PC". Click
+**Windows.** Windows SmartScreen shows "Windows protected your PC". Click
 *More info*, then *Run anyway*. The installer asks for the install folder and
 creates a Start menu and desktop shortcut.
 
 **macOS.** Open the `.dmg` that matches your Mac (`arm64` for Apple Silicon,
-`x64` for Intel) and drag Trichromat to *Applications*. The beta is not yet
+`x64` for Intel) and drag Trichromat to *Applications*. The app is not yet
 notarized, so the first launch is blocked. Open *System Settings → Privacy &
 Security*, scroll down to the message about Trichromat and click *Open
 Anyway*, then confirm. This is needed once.
 
-Start the app once now. That first run registers the `trichromat://` link the
-plugin uses to launch it later.
+The App has to be started once, to be visible for the Photoshop plugin.
 
 ### 2. The Photoshop plugin
-
-Double-click `Trichromat-Bridge-<version>.ccx`. The Creative Cloud desktop
+Double-click `Trichromat-Bridge.ccx`. The Creative Cloud desktop
 app installs it and warns that the plugin was not verified by Adobe; confirm.
-In Photoshop open *Plugins → Trichromat Bridge*. Keep that panel open while
-you work: a green dot means it is connected to the app.
+In Photoshop open *Plugins → Trichromat Bridge*.
 
 If the app is not running, the panel's *Open Trichromat* button starts it.
 Photoshop asks for permission the first time.
@@ -69,31 +47,27 @@ Photoshop asks for permission the first time.
 
 On the first start the app asks for your license key. It is in the Gumroad
 receipt e-mail and in your Gumroad library. Copy the key, click *Paste* in
-the app, then *Activate*. The mixer window never takes the keyboard away
-from Photoshop, which is why the key is pasted with a click rather than
-typed. Activation needs an internet connection once; afterwards the app
+the app, then *Activate*. Activation needs an internet connection once; afterwards the app
 re-checks the key in the background from time to time.
+
+### Updates
+The app checks for a new version on start and shows it on the settings page.
+Download the new build from your [Gumroad library](https://gumroad.com/library) and run the installer over
+the old one. 
 
 ## Use
 
 In the mixer: **click or drag** in the field moves the selector, **release**
-sets the Photoshop foreground, **Alt + release** sets the background. A
-corner chip's swatch loads the current Photoshop foreground into that corner.
-The lightness row below the field shifts the picked color lighter or darker.
-The bottom bar switches between the mix, settings and connection pages.
+sets the Photoshop foreground, **Alt + release** sets the background. 
 
-## Updates
+... Tutorial follows ...
 
-The app checks for a new version on start and shows it on the settings page.
-Download the new build from your Gumroad library and run the installer over
-the old one. The plugin only needs reinstalling when its version changed;
-the release notes say so.
+## Reporting problems or feature ideas
 
-## Reporting problems
-
-Open an issue in this repository and use the bug report template. Please
-include the app version (settings page), your OS, the Photoshop version, and
+Open an issue in this repository and use the report template. Please
+include for a bug the app version (settings page), your OS, the Photoshop version, and
 what you did before it went wrong. Screenshots of the connection page help.
+You can contact me directly: [trichromat@lukashefti.ch]()
 
 ## Privacy
 
