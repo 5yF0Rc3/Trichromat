@@ -1,9 +1,7 @@
 # Trichromat
 
 A painter's color mixer for Adobe Photoshop. Three corner colors are blended
-with Kubelka–Munk pigment mixing over a Reuleaux-triangle field, with
-OK-space lightness control. Click a color in the field and it becomes the
-Photoshop foreground.
+with Kubelka–Munk pigment mixing over a Reuleaux-triangle field, with OK-space lightness control. Click a color in the field and it becomes the Photoshop foreground.
 
 Trichromat has two parts:
 - the **Trichromat app**, a small always-on-top window that floats next to
@@ -13,31 +11,32 @@ Trichromat has two parts:
 The app **can be used without Photoshop!** in **Solo**-mode, you can copy the selected Color as HEX to the clipboard.
 
 ## Download and Requirement
-**Photoshop 26.2.0** or **newer** versions required with the Creative Cloud desktop app. Windows 10/11 or macOS 12 or newer.
+**OS:** <ins>Windows 10/11</ins> or <ins>macOS 12</ins> or newer.
 
-[Get it on Gumroad](https://745191790950.gumroad.com/l/trichromat)
+**For Photoshop:** <ins>Photoshop 26.2.0</ins> or newer versions required with the <ins>Creative Cloud</ins> desktop app. 
+
+**Download:** [Get it on Gumroad](https://745191790950.gumroad.com/l/trichromat)
 
 
 ## Install
-
 ### 1. The app
 Extract the zip to a folder.
 
-**Windows.** Windows SmartScreen shows "Windows protected your PC". Click
-*More info*, then *Run anyway*. The installer asks for the install folder and
-creates a Start menu and desktop shortcut.
+#### Windows
+Windows SmartScreen shows "Windows protected your PC". Click *More info*, then *Run anyway*. The installer asks for the install folder and creates a Start menu and desktop shortcut.
 
-**macOS.** Open the `.dmg` that matches your Mac (`arm64` for Apple Silicon,
-`x64` for Intel) and drag Trichromat to *Applications*. The app is not yet
-notarized, so the first launch is blocked. Open *System Settings → Privacy &
-Security*, scroll down to the message about Trichromat and click *Open
-Anyway*, then confirm. This is needed once.
+#### MacOS
+Open the `.dmg` that matches your Mac (`arm64` for Apple Silicon, `x64` for Intel) and drag Trichromat to *Applications*. 
 
-The App has to be started once, to be visible for the Photoshop plugin.
+> [!IMPORTANT]
+> The app is not yet notarized, so the first launch is blocked. Open *System Settings → Privacy & Security*, scroll down to the message about Trichromat and click *Open Anyway*, then confirm. This is needed once.
+> 
+> <img width="300" alt="apple 2" src="https://github.com/user-attachments/assets/7d265c75-64c0-42ec-af2d-995616738116" />
+
 
 ### 2. The Photoshop plugin
-Double-click `Trichromat-Bridge.ccx`. The Creative Cloud desktop
-app installs it and warns that the plugin was not verified by Adobe; confirm.
+The App has to be started once, to be visible for the Photoshop plugin.
+Double-click `Trichromat-Bridge.ccx`. The Creative Cloud desktop app installs it and warns that the plugin was not verified by Adobe; **confirm**.
 In Photoshop open *Plugins → Trichromat Bridge*.
 
 If the app is not running, the panel's *Open Trichromat* button starts it.
