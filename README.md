@@ -31,7 +31,7 @@ Open the `.dmg` that matches your Mac (`arm64` for Apple Silicon, `x64` for Inte
 > [!IMPORTANT]
 > The app is not yet notarized, so the first launch is blocked. Open *System Settings → Privacy & Security*, scroll down to the message about Trichromat and click *Open Anyway*, then confirm. This is needed once.
 > 
-> <img width="300" alt="apple 2" src="https://github.com/user-attachments/assets/7d265c75-64c0-42ec-af2d-995616738116" />
+> <img width="300" alt="apple 2" src="/images/apple 2.png" />
 
 
 ### 2. The Photoshop plugin
