@@ -82,12 +82,12 @@ color is sent when you release.
 
 ### Color Corner
 
-The three corners are your palette. Each corner has two halves. Click the **bottom
+The three corner are your palette. Each corner has two halves. Click the **bottom
 half** (the swatch) to load the current foreground color from Photoshop or
-Krita into that corner. Click the **top half** (the letter) to select the corner.
+Krita into that. Click the **top half** (the letter) to select it.
 The sliders edit the selected corner for hue, saturation and lightness directly.
 
-The bottom corner carries a **flash** icon. Switch it on and every color you pick in your painting app is written into this corner automatically.
+The bottom corner carries a **flash** icon. Switch it on and every color you pick in your painting app is written into this automatically.
 
 ### Readout & Solo mode
 
@@ -121,7 +121,7 @@ neutral. Alt-click the button to reset.
 
 ### Background
 
-Switch the Field and the sliders edit the color around the field instead
+Switch the button and the sliders edit the color around the field instead
 of a corner.
 
 ### Connection
