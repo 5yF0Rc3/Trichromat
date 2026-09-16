@@ -80,14 +80,14 @@ Photoshop or Krita, the picked color becomes the foreground color; hold **Alt**
 while clicking to set the background color instead. You can also drag: the
 color is sent when you release.
 
-### Color Chips
+### Color Corner
 
-The three chips are your palette. Each chip has two halves. Click the **bottom
+The three corners are your palette. Each corner has two halves. Click the **bottom
 half** (the swatch) to load the current foreground color from Photoshop or
-Krita into that corner. Click the **top half** (the letter) to select the chip.
-The sliders edit the selected chip for hue, saturation and lightness directly.
+Krita into that corner. Click the **top half** (the letter) to select the corner.
+The sliders edit the selected corner for hue, saturation and lightness directly.
 
-The bottom chip carries a **flash** icon. Switch it on and every color you pick in your painting app is written into this corner automatically.
+The bottom corner carries a **flash** icon. Switch it on and every color you pick in your painting app is written into this corner automatically.
 
 ### Readout & Solo mode
 
@@ -121,9 +121,8 @@ neutral. Alt-click the button to reset.
 
 ### Background
 
-Select the **BG** chip and the sliders edit the color around the field instead
-of a corner. Set it to the ground you paint on, so the mixtures read the way
-they will on the canvas.
+Switch the Field and the sliders edit the color around the field instead
+of a corner.
 
 ### Connection
 
