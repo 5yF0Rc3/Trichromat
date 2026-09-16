@@ -25,42 +25,43 @@ The app **can be used on its own!** in **Solo**-mode, you can copy the selected 
 Extract the zip to a folder.
 
 #### Windows
-Windows SmartScreen shows "Windows protected your PC". Click *More info*, then *Run anyway*. The installer asks for the install folder and creates a Start menu and desktop shortcut.
+Windows SmartScreen shows "Windows protected your PC". Click `More info`, then `Run anyway`. The installer asks for the install folder and creates a Start menu and desktop shortcut.
 
 #### MacOS
 Open the `.dmg` that matches your Mac (`arm64` for Apple Silicon, `x64` for Intel) and drag Trichromat to *Applications*. 
 
 > [!IMPORTANT]
-> The app is not yet notarized, so the first launch is blocked. Open *System Settings → Privacy & Security*, scroll down to the message about Trichromat and click *Open Anyway*, then confirm. This is needed once.
+> The app is not yet notarized, so the first launch is blocked. Open `System Settings → Privacy & Security`, scroll down to the message about Trichromat and click `Open Anyway`, then confirm. This is needed once.
 > 
 > <img width="300" alt="apple 2" src="/images/apple 2.png" />
 
 
 ### 2. The plugin
-The App has to be started once, to be visible for the plugin. Install the
-plugin for the app you paint in — both, if you use both.
+The App has to be started once, to be visible for the plugin.
 
 #### Photoshop
 Double-click `Trichromat-Bridge.ccx`. The Creative Cloud desktop app installs it and warns that the plugin was not verified by Adobe; **confirm**.
-In Photoshop open *Plugins → Trichromat Bridge*.
+In Photoshop open `Plugins → Trichromat Bridge`.
 
 If the app is not running, the panel's *Open Trichromat* button starts it.
 Photoshop asks for permission the first time.
 
 #### Krita
-In Krita choose *Tools → Scripts → Import Python Plugin from File…* and pick
+In Krita choose `Tools → Scripts → Import Python Plugin from File…` and pick
 `Trichromat-Krita-<version>.zip` from the download. Restart Krita.
 
-Open *Settings → Configure Krita → Python Plugin Manager*, tick **Trichromat
-Bridge** if it is not ticked already, and restart Krita once more.
-
-*Settings → Dockers → Trichromat Bridge* opens a small docker with the
+`Settings → Dockers → Trichromat Bridge` opens a small docker with the
 connection status and an *Open Trichromat* button. The connection works
 without the docker open.
 
+<img width="300" alt="krita anstallation" src="/images/krita install 1.png" />
+
+If its not visible go to`Settings → Configure Krita → Python Plugin Manager`, tick **Trichromat
+Bridge**.
+
 ### 3. Activate
 
-On the first start the app asks for your license key. It is in the Gumroad
+On the first start the app asks for your license key. It is in the **Gumroad**
 receipt e-mail and in your Gumroad library. Copy the key, click *Paste* in
 the app, then *Activate*. Activation needs an internet connection once; afterwards the app
 re-checks the key in the background from time to time.
