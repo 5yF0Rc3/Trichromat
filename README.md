@@ -70,13 +70,71 @@ The app checks for a new version on start and shows it on the settings page.
 Download the new build from your [Gumroad library](https://gumroad.com/library) and run the installer over
 the old one. 
 
-## Use
+## Guide
 
-In the mixer: **click or drag** in the field moves the selector, **release**
-sets the foreground color in Photoshop or Krita, **Alt + release** (Option on
-macOS) sets the background. 
+### Color Field
 
-... Tutorial follows ...
+Click anywhere in the field to pick a color. While Trichromat is linked to
+Photoshop or Krita, the picked color becomes the foreground color; hold **Alt**
+while clicking to set the background color instead. You can also drag: the
+color is sent when you release.
+
+### Color Chips
+
+The three chips are your palette. Each chip has two halves. Click the **bottom
+half** (the swatch) to load the current foreground color from Photoshop or
+Krita into that corner. Click the **top half** (the letter) to select the chip.
+The sliders edit the selected chip for hue, saturation and lightness directly.
+
+The bottom chip carries a **flash** icon. Switch it on and every color you pick in your painting app is written into this corner automatically.
+
+### Readout & Solo mode
+
+The readout shows the picked color with its HEX and RGB values. Click the HEX
+value to copy it to the clipboard.
+
+Trichromat also works without a painting app. In **Solo mode** a click in the field copies the hex directly, and the readout swatch becomes selectable: click
+it to fine-tune the picked color with the sliders. While you do that, the selector ring in the field disappears, because the tweaked color is no longer a point in the field. Click in the field to bring it back.
+
+### Model
+
+- **Spectral** mixes the corners as pigments, based on Kubelka–Munk theory,
+  the way physical paint behaves: blue and yellow give green.
+- **OKL** blends linearly in OKLab, a perceptually uniform color space: smooth,
+  even steps, clean hues. How light mixes, done right.
+- **RGB** is the plain sRGB average, the same limited blend most other software
+  does.
+
+### Lightness
+
+The slider lightens or darkens the entire field at once. **Relative** shifts
+the lightness of the mixed colors while hue and saturation stay, and it works
+in both directions. **White**, available in Spectral, adds white as a pigment
+to the mix.
+
+### Tint strength
+
+Not every pigment is equally strong. Turn on the tint control and drag the dot
+to change the relative strength of the three pigments. The center is
+neutral. Alt-click the button to reset.
+
+### Background
+
+Select the **BG** chip and the sliders edit the color around the field instead
+of a corner. Set it to the ground you paint on, so the mixtures read the way
+they will on the canvas.
+
+### Connection
+
+The connection page switches between **LINKED** (talking to Photoshop or Krita)
+and **SOLO** (standalone). The status dot tells you where you are:
+
+- **Green**: linked to a painting app.
+- **Orange**: connecting, give it a moment.
+- **Red**: no connection found. Open the Trichromat Bridge panel in your
+  painting app and check it is running, **RESTART** if needed.
+- **Blue**: Solo mode. Trichromat is not searching for an app; picks go to
+  the clipboard and the flash and load-from-app functions are off.
 
 ## Reporting problems or feature ideas
 
