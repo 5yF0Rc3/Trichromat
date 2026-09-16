@@ -73,6 +73,11 @@ the old one.
 
 ## Guide
 
+<p align="center">
+  <img width="600" alt="krita anstallation" src="/images/Tutorial.png" />
+</p>
+
+
 ### Color Field
 
 Click anywhere in the field to pick a color. While Trichromat is linked to
@@ -85,8 +90,11 @@ color is sent when you release.
 The three corner are your palette. Each corner has two halves. Click the **bottom
 half** (the swatch) to load the current foreground color from Photoshop or
 Krita into that. Click the **top half** (the letter) to select it.
+
+#### Sliders
 The sliders edit the selected corner for hue, saturation and lightness directly.
 
+#### Flash Icon
 The bottom corner carries a **flash** icon. Switch it on and every color you pick in your painting app is written into this automatically.
 
 ### Readout & Solo mode
@@ -136,7 +144,7 @@ and **SOLO** (standalone). The status dot tells you where you are:
 - **Blue**: Solo mode. Trichromat is not searching for an app; picks go to
   the clipboard and the flash and load-from-app functions are off.
 
-## Reporting problems or feature ideas
+## Reporting problems or ideas
 
 Open an issue in this repository and use the report template. Please
 include for a bug the app version (settings page), your OS, your Photoshop or
