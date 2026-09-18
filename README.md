@@ -1,14 +1,23 @@
 # Trichromat
+Photoshop or Krita don't blend two colors, they average the RGB values, which wrong for real paint. Halfway between blue and yellow, RGB gives a dull grey. A palette gives green.
 
-A painter's color mixer for Adobe Photoshop and Krita. Three corner colors are blended
-with Kubelka–Munk pigment mixing over a Reuleaux-triangle field, with OK-space lightness control. Click a color in the field and it becomes the foreground color in your painting app.
+The second problem is the shape. Three colors mix over a triangle, and a triangle has a unbalanced middle: its center is twice as far from the corners as from the edges, so the two-color blends along the edges crowd the center while the corners sit far out. Trichromat mixes over a Reuleaux triangle instead. The edges bow outward as arcs. From the same three corners that gives 63 % more mixing area, and the edge blends move out to nearly the same distance from the center as the corners. The field reads evenly, and there is room to pick.
 
-Trichromat has two parts:
-- the **Trichromat app**, a small always-on-top window that floats next to
-  your canvas, and
-- the **Trichromat Bridge** plugin inside Photoshop or Krita that connects to the app.
+<p align="center">
+  <img width="600" alt="Features" src="/images/Features with standart.png" />
+</p>
 
-The app **can be used on its own!** in **Solo**-mode, you can copy the selected Color as HEX to the clipboard.
+**Trichromat** is a color mixer for Photoshop and Krita. Three colors sit in the corners of a field, every mixture of them lies in between. Click a mixture and it is your foreground color. The app floats above Photoshop or Krita, always on top. Can be switched off. Also works without a painting app: in Solo mode a pick copies the color as HEX.
+
+### Mix models
+**Spectral** (Kubelka–Munk, via spectral.js) is the default. Each color is treated as a pigment with a reflectance spectrum, and the mixture is computed from how those pigments absorb and scatter light together. Blue and yellow make green, complementary colors mute each other into browns and greys, and the tint-strength pad lets you decide which pigment dominates.
+
+**OKL** blends linearly in OKLab, a perceptually uniform color space. Smooth, even steps, no dead grey zone in the middle and the hues stay clean.
+
+**RGB** is the plain sRGB average, the math Photoshop and Krita use when they blend colors by default. It is the reference. Put the same three colors in and you see the muddy middle you have been working around.
+
+### Lightness
+One slider lightens or darkens the whole field. **Relative** shifts the value in OKHSL; hue and saturation stay. **White** mixes white in as a fourth pigment (Spectral only).
 
 ## Download and Requirement
 **OS:** <ins>Windows 10/11</ins> or <ins>macOS 12</ins> or newer.
