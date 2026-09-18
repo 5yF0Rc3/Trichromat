@@ -103,7 +103,7 @@ The readout shows the picked color with its HEX and RGB values. Click the HEX
 value to copy it to the clipboard.
 
 Trichromat also works without a painting app. In **Solo mode** a click in the field copies the hex directly, and the readout swatch becomes selectable: click
-it to fine-tune the picked color with the sliders. While you do that, the selector ring in the field disappears, because the tweaked color is no longer a point in the field. Click in the field to bring it back.
+it to fine-tune the picked color with the sliders. If you would rather keep your clipboard, switch *Solo mode: copy HEX to clipboard on click* off on the settings page; clicking the HEX value still copies it. While you do that, the selector ring in the field disappears, because the tweaked color is no longer a point in the field. Click in the field to bring it back.
 
 ### Model
 

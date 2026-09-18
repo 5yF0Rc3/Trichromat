@@ -12,6 +12,12 @@ both Bridge plugins; a release says which plugin has to be reinstalled.
   the line under it names the app you are connected to.
 - SCALE setting on the settings page (100 / 125 / 150 / 200 %): a bigger window and UI for 4K displays and screen recordings.
 - Sharper mixing field on high-resolution displays.
+- Settings: *Solo mode: copy HEX to clipboard on click* can be switched off.
+  Clicking the HEX value still copies it.
+- Settings are remembered between starts: markings, resolution, scale, window pin and the solo-mode copy switch.
+- The mark at the centre of the field is a dot instead of a tick.
+- The button next to the lightness slider is called *tint strength*, as in the
+  guide, instead of *grey point*.
 
 ## 0.1.0 — first beta, 2026-09-09 (app 0.1.0, bridge 0.1.0)
 
