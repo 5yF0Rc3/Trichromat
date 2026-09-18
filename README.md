@@ -4,7 +4,7 @@ Photoshop or Krita don't blend two colors, they average the RGB values, which wr
 The second problem is the shape. Three colors mix over a triangle, and a triangle has a unbalanced middle: its center is twice as far from the corners as from the edges, so the two-color blends along the edges crowd the center while the corners sit far out. Trichromat mixes over a Reuleaux triangle instead. The edges bow outward as arcs. From the same three corners that gives 63 % more mixing area, and the edge blends move out to nearly the same distance from the center as the corners. The field reads evenly, and there is room to pick.
 
 <p align="center">
-  <img width="600" alt="Features" src="/images/Features with standart.png" />
+  <img width="800" alt="Features" src="/images/Features with standard.png" />
 </p>
 
 **Trichromat** is a color mixer for Photoshop and Krita. Three colors sit in the corners of a field, every mixture of them lies in between. Click a mixture and it is your foreground color. The app floats above Photoshop or Krita, always on top. Can be switched off. Also works without a painting app: in Solo mode a pick copies the color as HEX.
