@@ -192,6 +192,7 @@ palette too.
 <p align="center">
   <img width="600" alt="Guide" src="/images/Tutorial Palette.png" />
 </p>
+
 ### Connection
 
 The connection page switches between **LINKED** (talking to your painting app)
