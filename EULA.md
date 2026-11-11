@@ -1,12 +1,20 @@
 TRICHROMAT END USER LICENSE AGREEMENT
 
-Last updated: 2026-09-09
+Last updated: 2026-11-10
 
 This End User License Agreement ("Agreement") is between you ("you") and
 Lukas Hefti ("Licensor") and governs your use of the Trichromat desktop
 application and the Trichromat Bridge plugin for Adobe Photoshop (together,
 the "Software"). By installing, activating or using the Software you agree
 to this Agreement. If you do not agree, do not install or use the Software.
+
+The Trichromat Bridge plugins for Krita and for Blender are not part of the
+Software. They are free software, licensed under the GNU General Public
+License, version 3 or later; the license text ships with each plugin as
+LICENSE.txt, and that license alone governs your use, copying, modification
+and distribution of them. It grants no rights to the Software: the plugins
+and the desktop application are separate programs that communicate over a
+connection on your own computer.
 
 1. LICENSE GRANT
 Subject to this Agreement and to a valid license key, Licensor grants you a
@@ -42,8 +50,8 @@ verification service when you activate it and periodically afterwards. The
 license key and basic purchase status are exchanged for that purpose. The
 Software also checks online whether a newer version is available by
 downloading a small version file. No colors, documents or other content are
-transmitted. Photoshop is reached only over a connection on your own
-computer.
+transmitted. Photoshop, Krita and Blender are reached only over a connection
+on your own computer.
 
 6. UPDATES
 Licensor may provide updates at its discretion. Updates are covered by this
@@ -59,8 +67,9 @@ termination you must stop using the Software and delete all copies.
 THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING WITHOUT LIMITATION WARRANTIES OF MERCHANTABILITY, FITNESS
 FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. Color output depends on your
-display, calibration and Photoshop color settings; Licensor does not warrant
-that mixed colors match physical paints or any printed result.
+display, calibration and the color settings of your painting application;
+Licensor does not warrant that mixed colors match physical paints or any
+printed result.
 
 9. LIMITATION OF LIABILITY
 TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR IS NOT LIABLE FOR ANY
@@ -70,10 +79,13 @@ SOFTWARE. LICENSOR'S TOTAL LIABILITY UNDER THIS AGREEMENT SHALL NOT EXCEED
 THE AMOUNT YOU PAID FOR THE SOFTWARE. Mandatory liability under applicable
 law, in particular for intent and gross negligence, remains unaffected.
 
-10. ADOBE
-Adobe and Photoshop are trademarks of Adobe Inc. Trichromat is an
-independent product and is not affiliated with, endorsed by or sponsored by
-Adobe Inc. Your use of Photoshop is governed by Adobe's own terms.
+10. TRADEMARKS
+Adobe and Photoshop are trademarks of Adobe Inc. Krita is a trademark of
+the Krita Foundation (Stichting Krita). Blender is a trademark of the
+Blender Foundation. Trichromat is an independent product and is not
+affiliated with, endorsed by or sponsored by Adobe Inc., the Krita
+Foundation or the Blender Foundation. Your use of Photoshop, Krita and
+Blender is governed by their own terms.
 
 11. GOVERNING LAW
 This Agreement is governed by the laws of Switzerland, excluding its

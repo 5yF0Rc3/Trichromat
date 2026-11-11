@@ -1,6 +1,6 @@
 # Privacy
 
-Last updated: 2026-09-09
+Last updated: 2026-11-10
 
 Trichromat is a desktop application. It does not have user accounts and it
 does not collect analytics.
@@ -19,8 +19,11 @@ does not collect analytics.
 ## What stays on your computer
 
 Colors, documents, palettes, settings and the license key itself are stored
-locally only. The app and the Photoshop plugin talk over a connection on
-your own machine (`localhost`) and never over the network.
+locally only. The app and its plugins for Photoshop, Krita and Blender talk
+over a connection on your own machine (`localhost`) and never over the
+network. The plugins send nothing anywhere else. Blender lists the
+extension as using the network: that permission covers only this local
+connection.
 
 ## Contact
 
